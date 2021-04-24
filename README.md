@@ -105,3 +105,7 @@ model = model = Struc2Vec(G, 10, 80, workers=4, verbose=40, ) #init model
 model.train(window_size = 5, iter = 3)# train model
 embeddings = model.get_embeddings()# get embedding vectors
 ```
+# 参考
+1. [DeepWalk之推荐系统实践](https://zhuanlan.zhihu.com/p/69055823)
+2. [gensim Word2Vec 使用教程](https://zhuanlan.zhihu.com/p/28943718)
+3. [gensim.models Word2Vec参数说明](https://blog.csdn.net/wen_fei/article/details/82556835)
